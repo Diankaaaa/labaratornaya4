@@ -24,9 +24,9 @@ namespace labaratornaya4
                 int number = int.Parse(Console.ReadLine());
 
                 //Переменные для разложения числа на разряды
-                int num1 = number / 100; //Первое число
-                int num2 = number / 10 % 10; //Второе число
-                int num3 = number % 10; //Третье число
+                int num1 = number / 100; //Первая цифра числа
+                int num2 = number / 10 % 10; //Вторая цифра числа
+                int num3 = number % 10; //Третья цифра числа
 
                 //Проверка выполнения пунктов а и б
 
